@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
 	
-	float a, b, c; int t;
-	cin>>t;
-	while(t--) {
-	    cin >> a >> b >> c;
-	    ((a+b) / 2 > c ? cout << "YES" << endl : cout << "NO" << endl);
-	}
+    float a, b, c; int t;
+    cin>>t;
+    while(t--) {
+        cin >> a >> b >> c;
+        ((a+b) / 2 > c ? cout << "YES" << endl : cout << "NO" << endl);
+    }
     return 0;
 }
 
