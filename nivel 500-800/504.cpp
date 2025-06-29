@@ -1,19 +1,14 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main() {
-	int n, x, t;
-	cin >> t;
-	while(t--) {
-	    cin >> n >> x;
-	    if (n == 1) {
-	        cout << x << endl;
-	    } else {
-	        cout << round((double)n / 6) * x << endl;
-	    }
-	}
-
+    int t;
+    cin >> t;
+    while (t--) {
+        int n, x;
+        cin >> n >> x;
+        cout << (n + 5) / 6 * x << endl;
+    }
     return 0;
 }
 
